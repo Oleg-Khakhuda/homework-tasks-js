@@ -74,9 +74,9 @@ function add(a, b, c) {
     // Change code above this line
   }
   
-  add(15, 27, 10);
-  add(10, 20, 30);
-  add(5, 10, 15);
+  // add(15, 27, 10);
+  // add(10, 20, 30);
+  // add(5, 10, 15);
 
 
 // Tasks 9
@@ -91,9 +91,9 @@ return a + b + c;
 
 add(2, 5, 8); // 15
 
-console.log(add(15, 27, 10));
-console.log(add(10, 20, 30));
-console.log(add(5, 10, 15));
+// console.log(add(15, 27, 10));
+// console.log(add(10, 20, 30));
+// console.log(add(5, 10, 15));
 
 
 // Tasks 10
@@ -105,9 +105,9 @@ function makeMessage (name, price) {
     return message;
   };
   
-  makeMessage('Radar', 6150);
-  makeMessage('Scanner', 3500);
-  makeMessage('Reactor', 8000);
+  // makeMessage('Radar', 6150);
+  // makeMessage('Scanner', 3500);
+  // makeMessage('Reactor', 8000);
 
 
 // Tasks 11
@@ -120,11 +120,11 @@ const totalPrice = orderedQuantity * pricePerItem;
 return totalPrice;
 };
 
-calculateTotalPrice(5, 100);
-calculateTotalPrice(8, 60);
-calculateTotalPrice(3, 400);
-calculateTotalPrice(1, 3500);                    
-calculateTotalPrice(12, 70);
+// calculateTotalPrice(5, 100);
+// calculateTotalPrice(8, 60);
+// calculateTotalPrice(3, 400);
+// calculateTotalPrice(1, 3500);                    
+// calculateTotalPrice(12, 70);
 
 
 // Tasks 12
@@ -139,9 +139,9 @@ function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
     return message;
   }
   
-  makeOrderMessage(2, 100, 50);
-  makeOrderMessage(4, 300, 100);
-  makeOrderMessage(10, 70, 200);
+  // makeOrderMessage(2, 100, 50);
+  // makeOrderMessage(4, 300, 100);
+  // makeOrderMessage(10, 70, 200);
 
  
   // Tasks 13
@@ -154,10 +154,10 @@ function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
     return passed;
   }
   
-  isAdult(20);
-  isAdult(14);
-  isAdult(8);
-  isAdult(37);
+  // isAdult(20);
+  // isAdult(14);
+  // isAdult(8);
+  // isAdult(37);
 
 
   // Tasks 14
@@ -171,9 +171,9 @@ function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
     return isMatch;
   }
   
-  isValidPassword("mangodab3st");
-  isValidPassword("kiwirul3z");
-  isValidPassword("jqueryismyjam");
+  // isValidPassword("mangodab3st");
+  // isValidPassword("kiwirul3z");
+  // isValidPassword("jqueryismyjam");
 
 
 // Tasks 15
@@ -189,10 +189,10 @@ function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
   
     return message;
   }
-  checkAge(20);
-  checkAge(8);
-  checkAge(14);
-  checkAge(38);
+  // checkAge(20);
+  // checkAge(8);
+  // checkAge(14);
+  // checkAge(38);
 
 
   // Tasks 16
@@ -209,11 +209,11 @@ function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
   // Change code above this line
   return message;
 }
-checkStorage(100, 50);
-checkStorage(100, 130);
-checkStorage(200, 20);
-checkStorage(200, 150);
-checkStorage(150, 180);
+// checkStorage(100, 50);
+// checkStorage(100, 130);
+// checkStorage(200, 20);
+// checkStorage(200, 150);
+// checkStorage(150, 180);
 
 
 // Tasks 17
@@ -245,11 +245,11 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
     // Change code above this line
     return message;
   }
-  makeTransaction(3000, 5, 23000);
-  makeTransaction(1000, 3, 15000);
-  makeTransaction(5000, 10, 8000);
-  makeTransaction(2000, 8, 10000);
-  makeTransaction(500, 10, 5000);
+  // makeTransaction(3000, 5, 23000);
+  // makeTransaction(1000, 3, 15000);
+  // makeTransaction(5000, 10, 8000);
+  // makeTransaction(2000, 8, 10000);
+  // makeTransaction(500, 10, 5000);
 
 
 // Tasks 19
@@ -268,10 +268,10 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
   
     return message;
   }
-  checkPassword("mangohackzor");
-  checkPassword(null);
-  checkPassword("polyhax");
-  checkPassword("jqueryismyjam");
+  // checkPassword("mangohackzor");
+  // checkPassword(null);
+  // checkPassword("polyhax");
+  // checkPassword("jqueryismyjam");
 
 
   // Tasks 20
@@ -290,12 +290,12 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
     // Change code above this line
     return message;
   }
-  checkStorage(100, 50);
-  checkStorage(100, 130);
-  checkStorage(70, 0);
-  checkStorage(200, 20);
-  checkStorage(200, 250);
-  checkStorage(150, 0);
+  // checkStorage(100, 50);
+  // checkStorage(100, 130);
+  // checkStorage(70, 0);
+  // checkStorage(200, 20);
+  // checkStorage(200, 250);
+  // checkStorage(150, 0);
 
 
   // Tasks 21
@@ -305,10 +305,10 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
   
     return isInRange;
   }
-  isNumberInRange(10, 30, 17);
-  isNumberInRange(10, 30, 5);
-  isNumberInRange(20, 50, 24);
-  isNumberInRange(20, 50, 76);
+  // isNumberInRange(10, 30, 17);
+  // isNumberInRange(10, 30, 5);
+  // isNumberInRange(20, 50, 24);
+  // isNumberInRange(20, 50, 76);
 
 
   // Tasks 22
@@ -318,10 +318,10 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
   
     return canAccessContent;
   }
-  checkIfCanAccessContent("pro");
-  checkIfCanAccessContent("starter");
-  checkIfCanAccessContent("vip");
-  checkIfCanAccessContent("free");
+  // checkIfCanAccessContent("pro");
+  // checkIfCanAccessContent("starter");
+  // checkIfCanAccessContent("vip");
+  // checkIfCanAccessContent("free");
 
 
 // Tasks 23
@@ -332,10 +332,10 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
   
     return isNotInRange;
   }
-  isNumberNotInRange(10, 30, 17);
-  isNumberNotInRange(10, 30, 5);
-  isNumberNotInRange(20, 50, 24);
-  isNumberNotInRange(20, 50, 76);
+  // isNumberNotInRange(10, 30, 17);
+  // isNumberNotInRange(10, 30, 5);
+  // isNumberNotInRange(20, 50, 24);
+  // isNumberNotInRange(20, 50, 76);
 
 
 // Tasks 24
@@ -359,13 +359,13 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
     // Change code above this line
     return discount;
   }
-    getDiscount(137000);
-    getDiscount(46900);
-    getDiscount(8250);
-    getDiscount(1300);
-    getDiscount(5000);
-    getDiscount(20000);
-    getDiscount(50000);
+    // getDiscount(137000);
+    // getDiscount(46900);
+    // getDiscount(8250);
+    // getDiscount(1300);
+    // getDiscount(5000);
+    // getDiscount(20000);
+    // getDiscount(50000);
 
 
   // Tasks 25
@@ -378,11 +378,11 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
       // Change code above this line
       return message;
     }
-    checkStorage(100, 50);
-    checkStorage(100, 130);
-    checkStorage(200, 20);
-    checkStorage(200, 150);
-    checkStorage(150, 180);
+    // checkStorage(100, 50);
+    // checkStorage(100, 130);
+    // checkStorage(200, 20);
+    // checkStorage(200, 150);
+    // checkStorage(150, 180);
 
 
     // Tasks 26
@@ -395,9 +395,9 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
       // Change code above this line
       return message;
     }
-    checkPassword("jqueryismyjam");
-    checkPassword("angul4r1sl1f3");
-    checkPassword("r3actsux");
+    // checkPassword("jqueryismyjam");
+    // checkPassword("angul4r1sl1f3");
+    // checkPassword("r3actsux");
 
 
   // Tasks 27
@@ -445,10 +445,10 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
       // Change code above this line
       return message;
     }
-    checkPassword("mangohackzor");
-    checkPassword(null);
-    checkPassword("polyhax");
-    checkPassword("jqueryismyjam");   
+    // checkPassword("mangohackzor");
+    // checkPassword(null);
+    // checkPassword("polyhax");
+    // checkPassword("jqueryismyjam");   
 
 
     // Tasks 29
@@ -483,11 +483,11 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
       // Change code above this line
       return message;
     }
-    getShippingCost("Australia");
-    getShippingCost("Germany");
-    getShippingCost("Chile");
-    getShippingCost("Jamaica");
-    getShippingCost("Sweden");
+    // getShippingCost("Australia");
+    // getShippingCost("Germany");
+    // getShippingCost("Chile");
+    // getShippingCost("Jamaica");
+    // getShippingCost("Sweden");
 
 
   // Tasks 30
@@ -497,10 +497,10 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
     
       return message;
     }
-    getNameLength("Poly");
-    getNameLength("Harambe");
-    getNameLength("Billy");
-    getNameLength("Joe");
+    // getNameLength("Poly");
+    // getNameLength("Harambe");
+    // getNameLength("Billy");
+    // getNameLength("Joe");
 
 
   // Tasks 31
@@ -522,11 +522,11 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
     
       return substring;
     }
-    getSubstring("Hello world", 3);
-    getSubstring("Hello world", 6);
-    getSubstring("Hello world", 8);
-    getSubstring("Hello world", 11);
-    getSubstring("Hello world", 0);
+    // getSubstring("Hello world", 3);
+    // getSubstring("Hello world", 6);
+    // getSubstring("Hello world", 8);
+    // getSubstring("Hello world", 11);
+    // getSubstring("Hello world", 0);
     
 
   // Tasks 33
@@ -543,12 +543,12 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
        return result;
       
     }
-    formatMessage("Curabitur ligula sapien", 16);
-    formatMessage("Curabitur ligula sapien", 23);
-    formatMessage("Vestibulum facilisis purus nec", 20);
-    formatMessage("Vestibulum facilisis purus nec", 30);
-    formatMessage("Nunc sed turpis a felis in nunc fringilla", 15);
-    formatMessage("Nunc sed turpis a felis in nunc fringilla", 41);
+    // formatMessage("Curabitur ligula sapien", 16);
+    // formatMessage("Curabitur ligula sapien", 23);
+    // formatMessage("Vestibulum facilisis purus nec", 20);
+    // formatMessage("Vestibulum facilisis purus nec", 30);
+    // formatMessage("Nunc sed turpis a felis in nunc fringilla", 15);
+    // formatMessage("Nunc sed turpis a felis in nunc fringilla", 41);
 
 
     // Tasks 34
@@ -558,9 +558,9 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
     
       return normalizedInput;
     }
-    normalizeInput("Hello world");
-    normalizeInput("This ISN'T SpaM");
-    normalizeInput("Big SALE");
+    // normalizeInput("Hello world");
+    // normalizeInput("This ISN'T SpaM");
+    // normalizeInput("Big SALE");
 
 
   // Tasks 35
@@ -569,13 +569,13 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
       const result = fullName.includes(name); // Change this line
        return result;
      }
-     checkForName("Egor Kolbasov", "Egor");
-     checkForName("Egor Kolbasov", "egor");
-     checkForName("Egor Kolbasov", "egOr");
-     checkForName("Egor Kolbasov", "Zhenya");
-     checkForName("Vadim Nekrasov", "Vadim");
-     checkForName("Vadim Nekrasov", "vadim");
-     checkForName("Vadim Nekrasov", "Dima");
+    //  checkForName("Egor Kolbasov", "Egor");
+    //  checkForName("Egor Kolbasov", "egor");
+    //  checkForName("Egor Kolbasov", "egOr");
+    //  checkForName("Egor Kolbasov", "Zhenya");
+    //  checkForName("Vadim Nekrasov", "Vadim");
+    //  checkForName("Vadim Nekrasov", "vadim");
+    //  checkForName("Vadim Nekrasov", "Dima");
 
 
   // Tasks 36
@@ -587,10 +587,10 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
       // Change code above this line
       return result;
     }
-    checkForSpam("Latest technology news");
-    checkForSpam("JavaScript weekly newsletter");
-    checkForSpam("Get best sale offers now!");
-    checkForSpam("Amazing SalE, only tonight!");
-    checkForSpam("Trust me, this is not a spam message");
-    checkForSpam("Get rid of sPaM emails. Our book in on sale!");
-    checkForSpam("[SPAM] How to earn fast money?");
+    // checkForSpam("Latest technology news");
+    // checkForSpam("JavaScript weekly newsletter");
+    // checkForSpam("Get best sale offers now!");
+    // checkForSpam("Amazing SalE, only tonight!");
+    // checkForSpam("Trust me, this is not a spam message");
+    // checkForSpam("Get rid of sPaM emails. Our book in on sale!");
+    // checkForSpam("[SPAM] How to earn fast money?");
