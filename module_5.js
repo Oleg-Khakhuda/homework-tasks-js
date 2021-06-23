@@ -490,3 +490,96 @@ const parent = {
       console.log(mango.blacklistedEmails); // 'poly@mail.com'
       console.log(mango.isBlacklisted('mango@mail.com')); //  false
       console.log(mango.isBlacklisted('poly@mail.com')); // true 
+
+
+
+
+//Модуль 5. Занятие 9. Прототипное наследование
+
+
+      function Person ({ firstName, lastName, age, gender, interest }) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.gender = gender;
+        this.interest = interest;
+      }
+      
+      Person.prototype.greeting = function () {
+        console.log(`Привет я ${this.firstName} ${this.lastName}`);
+      };
+      
+      Person.prototype.bio = function () {
+        console.log(`Привет ${this.firstName} мне ${this.age} лет. Мне нравится ${this.interest}`);
+      };
+      
+      const user = new Person({
+        firstName: "Bob",
+        lastName: "Dou",
+        age: 21,
+        gender: "male",
+        interest: "football",
+      });
+    
+      user.greeting()
+      user.bio()
+      console.log(user);
+    
+    
+      const user2 = new Person({
+        firstName: "John",
+        lastName: "Dou",
+        age: 35,
+        gender: "male",
+        interest: "hokey",
+    })
+    
+    user2.greeting()
+      user2.bio()
+    console.log(user2);
+    
+    
+    function Teacher(subject) {
+      Person.call(this, subject);
+      this.subject = subject;
+    }
+    
+    Teacher.prototype = Object.create(Person.prototype);
+    Teacher.prototype.constructor = Teacher;
+    
+    const teacher1 = new Teacher({
+      firstName: "Jane",
+      lastName: "Dou",
+      age: 25,
+      gender: "male",
+      interest: "tennis",
+      subject: "Math",
+    });
+    
+    teacher1.greeting();
+    teacher1.bio();
+    console.log(teacher1);
+    
+    
+    function Student() {
+      Person.call(this, ...arguments);
+    };
+    
+    Student.prototype = Object.create(Person.prototype);
+    Student.prototype.constructor = Student;
+    
+    Student.prototype.greeting = function () {
+      console.log("I am student method");
+    };
+    
+    const student1 = new Student({
+      firstName: "Oleg",
+      lastName: "Khakhuda",
+      age: 31,
+      gender: "male",
+      interest: "drive",
+    });
+    
+    student1.greeting();
+    student1.bio();
+    console.log(student1);
